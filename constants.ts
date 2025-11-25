@@ -1,7 +1,7 @@
 import { Wifi, ShieldCheck, Smartphone, Zap, MapPin, Headphones } from 'lucide-react';
 import { Feature, FAQItem, Plan, Testimonial } from './types';
 
-export const WHATSAPP_LINK_SALES = "https://bit.ly/contatofederalassociados";
+export const WHATSAPP_LINK_SALES = "https://federalassociadoscadastro.shop";
 export const WHATSAPP_LINK_SUPPORT = "https://bit.ly/DetalhesCampanhaFederal";
 
 export const FEATURES: Feature[] = [

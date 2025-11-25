@@ -11,8 +11,8 @@ import { SupportSection } from './components/SupportSection';
 import { FAQ } from './components/FAQ';
 import { Footer } from './components/Footer';
 import { StickyCTA } from './components/StickyCTA';
-import { Header } from './components/Header';
 import { GuaranteeSection } from './components/GuaranteeSection';
+import { WhatsAppButton } from './components/WhatsAppButton';
 
 const App: React.FC = () => {
   
@@ -34,7 +34,6 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-slate-950 text-white selection:bg-brand-500 selection:text-white overflow-x-hidden font-sans">
-      <Header />
       <main>
         <Hero />
         <VideoBenefitSection />
@@ -49,6 +48,7 @@ const App: React.FC = () => {
         <FAQ />
       </main>
       <Footer />
+      <WhatsAppButton />
       <StickyCTA />
     </div>
   );
