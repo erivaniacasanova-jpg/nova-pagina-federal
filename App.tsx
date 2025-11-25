@@ -3,6 +3,7 @@ import { Hero } from './components/Hero';
 import { VideoBenefitSection } from './components/VideoBenefitSection';
 import { FeatureSection } from './components/FeatureSection';
 import { PlanSection } from './components/PlanSection';
+import { BenefitsClubSection } from './components/BenefitsClubSection';
 import { TestimonialsSection } from './components/TestimonialsSection';
 import { AboutSection } from './components/AboutSection';
 import { SecuritySection } from './components/SecuritySection';
@@ -39,6 +40,7 @@ const App: React.FC = () => {
         <VideoBenefitSection />
         <FeatureSection />
         <PlanSection />
+        <BenefitsClubSection />
         <TestimonialsSection />
         <AboutSection />
         <SecuritySection />

@@ -7,23 +7,23 @@ export const WHATSAPP_LINK_SUPPORT = "https://bit.ly/DetalhesCampanhaFederal";
 export const FEATURES: Feature[] = [
   {
     icon: Wifi,
-    title: "Internet Ininterrupta",
-    description: "Conexão estável e de alta velocidade 4.5G e 5G onde houver cobertura."
+    title: "Internet de Qualidade",
+    description: "Conexão estável e de alta velocidade 4G/5G."
   },
   {
     icon: Smartphone,
     title: "Apps Ilimitados",
-    description: "Use WhatsApp, Waze e Moovit sem descontar da sua franquia de dados."
+    description: "Use aplicativos sem descontar da sua franquia de dados."
   },
   {
     icon: MapPin,
     title: "Maior Cobertura",
-    description: "Sinal presente em mais de 5.500 municípios em todo o território nacional."
+    description: "Sinal presente em todo o território nacional."
   },
   {
     icon: ShieldCheck,
     title: "Sem Fidelidade",
-    description: "Cancele quando quiser, sem multas e sem letras miúdas no contrato."
+    description: "Cancele quando quiser, sem multas e sem letras miúdas."
   },
   {
     icon: Zap,
@@ -33,7 +33,7 @@ export const FEATURES: Feature[] = [
   {
     icon: Headphones,
     title: "Suporte Humanizado",
-    description: "Atendimento rápido via WhatsApp com especialistas reais, sem robôs chatos."
+    description: "Atendimento rápido via WhatsApp com especialistas preparados para te atender."
   }
 ];
 
